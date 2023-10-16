@@ -1,0 +1,531 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.first-container {
+  background-image: url(wallpaperflare.com_wallpaper.jpg);
+  background-size: 100%;
+  height: 600px;
+  text-align: center;
+  padding: 200px 200px;
+  color: white;
+}
+
+.first-container p {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.first-container h1 {
+  margin: 20px 0;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.first-container button {
+  color: white;
+  background-color: #f1c50e;
+  padding: 10px 22px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.first-container a {
+  color: white;
+  transition: 0.1s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.first-container a:hover {
+  color: rgb(199, 186, 186);
+}
+
+.second-container {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 25px;
+}
+
+.second-container p {
+  margin-bottom: 20px;
+}
+
+.third-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  margin: auto;
+  justify-content: space-between;
+  text-align: center;
+  color: rgb(209, 129, 38);
+}
+
+.third-container img {
+  background-color: rgb(209, 129, 38);
+  border-radius: 20px;
+  width: 30%;
+  padding: 15px;
+}
+
+.third-container h3 {
+  padding: 30px;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.third-container p {
+  margin-bottom: 25px;
+}
+
+.button button {
+  color: white;
+  background-color: #f1c50e;
+  padding: 10px 22px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 20px;
+  font-size: 18px;
+  margin-left: 46%;
+}
+
+.fourth-container {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(209, 129, 38);
+  display: flex;
+  padding-left: 70px;
+  margin-top: 60px;
+  color: white;
+}
+
+.fourth-container img {
+  width: 50%;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+
+.fourth-container p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 28px;
+  width: 90%;
+  font-size: 18px;
+}
+
+.fourth-container h2 {
+  margin: 20px 0;
+  font-size: 38px;
+}
+
+.fourth-container a {
+  color: white;
+  transition: 0.1s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.fourth-container a:hover {
+  color: rgb(199, 186, 186);
+}
+
+.fourth-container button {
+  color: white;
+  background-color: #f1c50e;
+  padding: 10px 22px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.fifth-container {
+  background-color: #f1c50e;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  padding: 70px;
+}
+
+.fifth-container button {
+  color: black;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+.sixth-container {
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: white;
+}
+
+.sixth-container h2 {
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+
+.sixth-container p {
+  line-height: 26px;
+}
+
+.seventh-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  justify-content: space-evenly;
+}
+
+.bir {
+  width: 45%;
+  display: flex;
+  background-color: #fce27a;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.bir img {
+  width: 50%;
+  height: 250px;
+}
+
+.iki {
+  width: 45%;
+  display: flex;
+  background-color: #fce27a;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.iki img {
+  width: 50%;
+  height: 250px;
+}
+
+.uc {
+  width: 45%;
+  display: flex;
+  background-color: #fce27a;
+  padding: 30px;
+}
+
+.uc img {
+  width: 50%;
+  height: 250px;
+}
+
+.dord {
+  width: 45%;
+  display: flex;
+  background-color: #fce27a;
+  padding: 30px;
+}
+
+.dord img {
+  width: 50%;
+  height: 250px;
+}
+
+.seventh-container button {
+  color: white;
+  background-color: brown;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+}
+
+.top {
+  font-size: 23px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.inner {
+  padding: 15px;
+}
+
+.cost {
+  font-weight: bold;
+  margin: 20px 0;
+  margin-bottom: 25px;
+}
+
+.eighth-container {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(209, 129, 38);
+  display: flex;
+  padding-left: 70px;
+  margin-top: 60px;
+  color: white;
+  text-align: right;
+}
+
+.eighth-container img {
+  width: 50%;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+
+.eighth-container p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 28px;
+  width: 80%;
+  font-size: 18px;
+  text-align: right;
+  margin-left: 90px;
+}
+
+.eighth-container h2 {
+  margin: 20px 0;
+  font-size: 38px;
+  margin-right: 50px;
+}
+
+.eighth-container a {
+  color: white;
+  transition: 0.1s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.eighth-container a:hover {
+  color: rgb(199, 186, 186);
+}
+
+.eighth-container button {
+  color: white;
+  background-color: #f1c50e;
+  padding: 10px 22px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 10px;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.ninth-container {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 25px;
+  background-color: rgb(236, 233, 226);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 60px 0;
+}
+
+.ninth-container p {
+  margin-bottom: 20px;
+}
+
+.bos {
+  background-color: rgb(236, 233, 226);
+}
+
+.tenth-container {
+  background-color: rgb(236, 233, 226);
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.tenth-container img {
+  background-color: rgb(209, 129, 38);
+  border-radius: 40px;
+  width: 40%;
+  padding: 15px;
+}
+
+.tenth-container h2 {
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+
+.tenth-container p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.but button {
+  color: white;
+  background-color: #f1c50e;
+  padding: 10px 22px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 20px;
+  font-size: 18px;
+  margin-left: 46%;
+  margin-bottom: 30px;
+}
+
+.but {
+  background-color: rgb(236, 233, 226);
+}
+
+.eleventh-container h2 {
+  background-color: white;
+  text-align: center;
+  font-size: 35px;
+  margin: 50px 0;
+}
+
+.image {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.twelfth-container {
+  background-color: #fdcf18;
+  margin-top: 70px;
+  text-align: center;
+  color: white;
+  padding: 80px 200px;
+}
+
+.twelfth-container h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.twelfth-container p {
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.twelfth-container button {
+  color: black;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.thirteen-container {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(209, 129, 38);
+  display: flex;
+  padding-left: 70px;
+  color: white;
+}
+
+.thirteen-container img {
+  width: 100%;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+
+.thirteen-container p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 28px;
+  width: 75%;
+  font-size: 18px;
+}
+
+.thirteen-container h2 {
+  padding-top: 80px;
+  margin-bottom: 30px;
+  font-size: 38px;
+}
+
+.thirteen-container a {
+  color: white;
+  transition: 0.1s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.thirteen-container a:hover {
+  color: rgb(199, 186, 186);
+}
+
+.tel {
+  display: flex;
+}
+
+.tel img {
+  color: rgb(209, 129, 38);
+  width: 13%;
+  background-color: brown;
+  padding: 22px;
+  border-radius: 80px;
+  border: none;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact p {
+  font-size: 30px;
+  padding: 20px 30px;
+  height: 30px;
+}
+
+.contact a {
+  color: brown;
+  cursor: pointer;
+  padding-left: 30px;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  color: white;
+}
+
+.last-container {
+  background-color: rgb(58, 57, 57);
+  color: white;
+  font-size: 15px;
+  padding: 50px;
+  text-align: center;
+}
+
+.last-container a {
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.last-container p {
+  margin-bottom: 90px;
+}
+
+.last-container a:hover {
+  color: grey;
+  text-decoration: none;
+}
